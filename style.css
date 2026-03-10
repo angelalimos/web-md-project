@@ -198,7 +198,7 @@ background:url(/images/left_bg.gif) repeat-y;
 .benefits h3 {background:url(/images/title_benefits.gif) no-repeat;}
 .requirements h3 {background:url(/images/title_requirements.gif) no-repeat;}
 .design-selection h3 {background:url(/images/title_select.gif) no-repeat;}
-.design-archives h3 {background:url(images/title_archives.gif) no-repeat;}
+.design-archives h3 {background:url(/images/title_archives.gif) no-repeat;}
 .zen-resources h3 {background:url(/images/title_resources.gif) no-repeat;}
 
 /* bottom image */
