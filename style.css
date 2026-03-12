@@ -3,7 +3,7 @@ body {
 margin:0;
 padding:0;
 font:75%/1.4 verdana,Helvetica,sans-serif;
-background-image:url(/images/body_bg.gif);
+background-image:url(images/body_bg.gif);
 text-align:center;
 }
 
@@ -46,7 +46,7 @@ width:772px;
 margin:0 auto;
 padding:0 13px;
 position:relative;
-background:url(/images/line) repeat-x #dfdfdf;
+background:url(images/line) repeat-x #dfdfdf;
 border-left:1px solid purple;
 border-right:1px solid purple;
 color:#454545;
@@ -56,7 +56,7 @@ text-align:left;
 header {
 width:772px;
 height:178px;
-background:url(/images/top_title.jpg);
+background:url(images/top_title.jpg);
 }
 
 .summary, .preamble, .explanation, .participation, .benefits, .requirements {
@@ -101,12 +101,12 @@ padding:0 85px 10px 17px;
 .sidebar li {
 list-style:none;
 padding:6px 0 10px 0;
-background:url(/images/line_divider.png) bottom repeat-x;
+background:url(images/line_divider.png) bottom repeat-x;
 }
 
 .sidebar li a {
 padding-left:7px;
-background:url(/images/link.gif) left center no-repeat;
+background:url(images/link.gif) left center no-repeat;
 text-decoration:none;
 }
 
@@ -117,15 +117,15 @@ text-decoration:underline;
 .summary p:first-child {
 padding-top:14px;
 background:
-	url(quicksummary_top.gif) top no-repeat,
-	url(/images/right_bg.gif) right repeat-y;
+	url(images/quicksummary_top.gif) top no-repeat,
+	url(images/right_bg.gif) right repeat-y;
 }
 
 .summary p:last-child {
 padding-bottom:20px;
 background:
-	url(/images/right_bottom.gif) bottom no-repeat,
-	url(/images/right_bg.gif) right repeat-y;
+	url(images/right_bottom.gif) bottom no-repeat,
+	url(images/right_bg.gif) right repeat-y;
 }
 
 .design-selection li a {
@@ -164,7 +164,7 @@ color:#777777;
 .summary p:first-child {
 padding-top:14px;
 position: relative;
-background:url(/images/quicksummary_top.gif) top no-repeat;
+background:url(images/quicksummary_top.gif) top no-repeat;
 }
 
 .summary p:last-child {
@@ -173,33 +173,33 @@ padding-bottom:20px;
 
 /* right image */
 .summary p, .explanation p , .benefits p {
-background:url(/images/right_bg.gif) right repeat-y;
+background:url(images/right_bg.gif) right repeat-y;
 }
 .design-selection, .design-archives, .zen-resources {
-background:url(/images/left_bg.gif) repeat-y;
+background:url(images/left_bg.gif) repeat-y;
 }
 
 /* side image */
-.summary {background-image:url(/images/no\ text.jpg);background-position:left bottom;}
-.preamble {background-image:url(/images/enlightenmment.jpg);background-position:right bottom;}
-.explanation {background-image:url(/images/explanation.jpg);background-position:left bottom;}
-.participation {background-image:url(/images/participation.jpg);background-position:right bottom;}
-.benefits {background-image:url(/images/Benefits.jpg);background-position:left bottom;}
-.requirements {background-image:url(/images/Requirements.jpg); background-position:right bottom;}
+.summary {background-image:url(images/no\ text.jpg);background-position:left bottom;}
+.preamble {background-image:url(images/enlightenmment.jpg);background-position:right bottom;}
+.explanation {background-image:url(images/explanation.jpg);background-position:left bottom;}
+.participation {background-image:url(images/participation.jpg);background-position:right bottom;}
+.benefits {background-image:url(images/Benefits.jpg);background-position:left bottom;}
+.requirements {background-image:url(images/Requirements.jpg); background-position:right bottom;}
 
 .preamble p:last-child, .main p:last-child {
 	padding-bottom: 25px;
 }
 
 /* h3 image */
-.preamble h3 {background:url(/images/title_preamble.gif) no-repeat;}
+.preamble h3 {background:url(images/title_preamble.gif) no-repeat;}
 .explanation h3 {background:url(images/title_explanation.gif) no-repeat;}
 .participation h3 {background:url(images/title_participation.gif) no-repeat;}
-.benefits h3 {background:url(/images/title_benefits.gif) no-repeat;}
-.requirements h3 {background:url(/images/title_requirements.gif) no-repeat;}
-.design-selection h3 {background:url(/images/title_select.gif) no-repeat;}
-.design-archives h3 {background:url(/images/title_archives.gif) no-repeat;}
-.zen-resources h3 {background:url(/images/title_resources.gif) no-repeat;}
+.benefits h3 {background:url(images/title_benefits.gif) no-repeat;}
+.requirements h3 {background:url(images/title_requirements.gif) no-repeat;}
+.design-selection h3 {background:url(images/title_select.gif) no-repeat;}
+.design-archives h3 {background:url(images/title_archives.gif) no-repeat;}
+.zen-resources h3 {background:url(images/title_resources.gif) no-repeat;}
 
 /* bottom image */
 .summary p:last-child, .preamble p:nth-child(4), .explanation p:nth-child(3), .participation p:nth-child(4), .benefits p:nth-child(2), .requirements p:nth-child(6) {
@@ -215,7 +215,7 @@ top: 20px;
 bottom: 0;
 right: 0;
 width:20px;
-background:url(/images/right_bg.gif) right repeat-y;
+background:url(images/right_bg.gif) right repeat-y;
 }
 .summary p:last-child:after, .preamble p:nth-child(4):after, .explanation p:nth-child(3):after, .participation p:nth-child(4):after, .benefits p:nth-child(2):after, .requirements p:nth-child(6):after {
 content: ' ';
@@ -226,7 +226,7 @@ left: 0;
 right: 0;
 height:20px;
 
-background:url(/images/right_bottom.gif) bottom no-repeat;
+background:url(images/right_bottom.gif) bottom no-repeat;
 width: 100%;
 height: 20px;
 margin-top: -20px;
@@ -235,5 +235,5 @@ margin-top: -20px;
 .design-selection ul, .design-archives ul, .zen-resources ul{
 margin:0;
 padding:0 25px 20px 17px;
-background:url(/images/left_bottom.gif) bottom no-repeat;
+background:url(images/left_bottom.gif) bottom no-repeat;
 }
